@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/honda"
+        android:title="Honda"
+        >
+    </item>
+
+    <item
+        android:id="@+id/toyota"
+        android:title="Toyota"
+        >
+    </item>
+
+    <item
+        android:id="@+id/mitsubishi"
+        android:title="Mitsubishi"
+        >
+    </item>
+
+    <item
+        android:id="@+id/suzuki"
+        android:title="Suzuki"
+        >
+    </item>
+
+    <item
+        android:id="@+id/daihatsu"
+        android:title="Daihatsu"
+        >
+    </item>
+
+
+</menu>

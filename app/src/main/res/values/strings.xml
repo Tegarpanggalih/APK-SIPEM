@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sipem</string>
+        <string-array name="merk">
+            <item>Honda</item>
+            <item>Toyota</item>
+            <item>Mitsubishi</item>
+            <item>Suzuki</item>
+            <item>Daihatsu</item>
+        </string-array>
+</resources>

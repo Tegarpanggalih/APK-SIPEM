@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_mobil"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_mobil"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sipem"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DashboardActivity"
+            android:exported="false"></activity>
+        <activity android:name=".FormPeminjaman"
+            android:exported="false"></activity>
+        <activity android:name=".DetailPinjam"
+            android:exported="false"/>
+
+        <activity android:name=".EksekusiMenu"></activity>
+        <activity android:name=".Menu"></activity>
+        <activity android:name=".Honda"></activity>
+        <activity android:name=".Mitsubishi"></activity>
+        <activity android:name=".Suzuki"></activity>
+        <activity android:name=".Toyota"></activity>
+        <activity android:name=".Daihatsu"></activity>
+
+    </application>
+
+</manifest>

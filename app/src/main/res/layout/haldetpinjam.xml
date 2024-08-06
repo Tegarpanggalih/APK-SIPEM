@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL PEMINJAMAN"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/heading"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIK"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tampilnik"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="15dp"
+        android:id="@+id/tampilnama"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textSize="15dp"
+        android:id="@+id/tampiljeniskelamin"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO HP"
+        android:textSize="15dp"
+        android:id="@+id/tampilno"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merk"
+        android:textSize="15dp"
+        android:id="@+id/tampilmerk"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Mobil"
+        android:textSize="15dp"
+        android:id="@+id/tampilmobil"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lama Sewa (/hari)"
+        android:textSize="15dp"
+        android:id="@+id/tampilsewa"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Biaya"
+        android:textSize="15dp"
+        android:id="@+id/total"
+        />
+
+
+
+</LinearLayout>
